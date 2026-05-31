@@ -1,49 +1,55 @@
-# User Management API
+# 👤 User Management API
 
-## Sobre o projeto
+API REST para gerenciamento de usuários, desenvolvida com Node.js e Express.
 
-Esta aplicação foi desenvolvida para praticar conceitos fundamentais de desenvolvimento back-end utilizando Node.js e Express.
+> ⚠️ **Este projeto faz parte de um sistema com dois repositórios que se comunicam. Para funcionar corretamente, a API e o Frontend precisam estar rodando na mesma máquina ao mesmo tempo.**
+>
+> | Repositório | Link |
+> |---|---|
+> | 🔧 **API (você está aqui)** | [node-user-api](https://github.com/Momade-Ibraimo/node-user-api) |
+> | 🖥️ **Frontend** | [app-cadastro-usuarios](https://github.com/Momade-Ibraimo/app-cadastro-usuarios) |
 
-A API permite realizar o gerenciamento de usuários através de operações CRUD completas, incluindo validações de entrada, tratamento de erros e utilização de middlewares.
+---
 
-## Funcionalidades
+## 📌 Sobre o projeto
 
-* Cadastro de usuários
-* Listagem de usuários
-* Atualização de dados
-* Exclusão de usuários
-* Validação de idade mínima
-* Validação de parâmetros da rota
-* Tratamento de erros
-* Geração de IDs únicos com UUID
+Desenvolvida para praticar conceitos fundamentais de back-end com Node.js e Express. Permite o gerenciamento completo de usuários com operações CRUD, validações de entrada, tratamento de erros e middlewares.
 
-## Tecnologias utilizadas
+---
 
-* Node.js
-* Express
-* Cors
-* UUID
-* JavaScript
+## ✅ Funcionalidades
 
-## Rotas
+- Cadastro de usuários
+- Listagem de usuários
+- Atualização de dados
+- Exclusão de usuários
+- Validação de idade mínima (18 anos)
+- Validação de parâmetros de rota
+- Tratamento de erros
+- Geração de IDs únicos com UUID
 
-### Listar usuários
+---
 
-GET /users
+## 🛠️ Tecnologias utilizadas
 
-### Criar usuário
+- Node.js
+- Express
+- Cors
+- UUID
+- JavaScript
 
-POST /user
+---
 
-### Atualizar usuário
+## 🔗 Endpoints da API
 
-PUT /users/:id
+| Método | Endpoint | Descrição |
+|---|---|---|
+| `GET` | `/users` | Lista todos os usuários |
+| `POST` | `/user` | Cria um novo usuário |
+| `PUT` | `/users/:id` | Atualiza um usuário |
+| `DELETE` | `/users/:id` | Remove um usuário |
 
-### Remover usuário
-
-DELETE /users/:id
-
-## Exemplo de cadastro
+### Exemplo de cadastro
 
 ```json
 {
@@ -52,23 +58,43 @@ DELETE /users/:id
 }
 ```
 
-## Regras de negócio
+---
 
-* Nome é obrigatório
-* Idade é obrigatória
-* Usuário deve possuir idade igual ou superior a 18 anos
+## 📋 Regras de negócio
 
-## Conceitos praticados
+- Nome é obrigatório
+- Idade é obrigatória
+- Usuário deve ter idade igual ou superior a **18 anos**
 
-* APIs REST
-* CRUD
-* Middlewares
-* Status HTTP
-* Tratamento de erros
-* Validação de dados
-* Manipulação de arrays e objetos
-* UUID
+---
 
-## Objetivo
+## ⚙️ Como rodar
 
-Consolidar conhecimentos em Node.js, Express e desenvolvimento de APIs REST utilizando boas práticas de validação e organização de código.
+```bash
+git clone https://github.com/Momade-Ibraimo/node-user-api
+cd node-user-api
+npm install
+npm start
+```
+
+A API ficará disponível em `http://localhost:3002`.
+
+> 💡 Após iniciar a API, suba também o frontend: [app-cadastro-usuarios](https://github.com/Momade-Ibraimo/app-cadastro-usuarios)
+
+---
+
+## 🧠 Conceitos praticados
+
+- APIs REST e CRUD completo
+- Middlewares
+- Status HTTP
+- Tratamento de erros
+- Validação de dados
+- Manipulação de arrays e objetos
+- UUID
+
+---
+
+## 🎯 Objetivo
+
+Consolidar conhecimentos em Node.js, Express e desenvolvimento de APIs REST com boas práticas de validação e organização de código.
