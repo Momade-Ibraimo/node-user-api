@@ -97,4 +97,4 @@ A API ficará disponível em `http://localhost:3002`.
 
 ## 🎯 Objetivo
 
-Consolidar conhecimentos em Node.js, Express e desenvolvimento de APIs REST com boas práticas de validação e organização de código.. 
+Consolidar conhecimentos em Node.js, Express e desenvolvimento de APIs REST com boas práticas de validação e organização de código... 
