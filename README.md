@@ -1,23 +1,23 @@
-# 👤 User Management API
+# User Management API
 
 API REST para gerenciamento de usuários, desenvolvida com Node.js e Express.
 
-> ⚠️ **Este projeto faz parte de um sistema com dois repositórios que se comunicam. Para funcionar corretamente, a API e o Frontend precisam estar rodando na mesma máquina ao mesmo tempo.**
+>  **Este projeto faz parte de um sistema com dois repositórios que se comunicam. Para funcionar corretamente, a API e o Frontend precisam estar rodando na mesma máquina ao mesmo tempo.**
 >
 > | Repositório | Link |
 > |---|---|
-> | 🔧 **API (você está aqui)** | [node-user-api](https://github.com/Momade-Ibraimo/node-user-api) |
-> | 🖥️ **Frontend** | [app-cadastro-usuarios](https://github.com/Momade-Ibraimo/app-cadastro-usuarios) |
+> |  **API** | [node-user-api](https://github.com/Momade-Ibraimo/node-user-api) |
+> |  **Frontend** | [app-cadastro-usuarios](https://github.com/Momade-Ibraimo/app-cadastro-usuarios) |
 
 ---
 
-## 📌 Sobre o projeto
+##  Sobre o projeto
 
 Desenvolvida para praticar conceitos fundamentais de back-end com Node.js e Express. Permite o gerenciamento completo de usuários com operações CRUD, validações de entrada, tratamento de erros e middlewares.
 
 ---
 
-## ✅ Funcionalidades
+##  Funcionalidades
 
 - Cadastro de usuários
 - Listagem de usuários
@@ -30,7 +30,7 @@ Desenvolvida para praticar conceitos fundamentais de back-end com Node.js e Expr
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - Node.js
 - Express
@@ -40,7 +40,7 @@ Desenvolvida para praticar conceitos fundamentais de back-end com Node.js e Expr
 
 ---
 
-## 🔗 Endpoints da API
+##  Endpoints da API
 
 | Método | Endpoint | Descrição |
 |---|---|---|
@@ -60,7 +60,7 @@ Desenvolvida para praticar conceitos fundamentais de back-end com Node.js e Expr
 
 ---
 
-## 📋 Regras de negócio
+##  Regras de negócio
 
 - Nome é obrigatório
 - Idade é obrigatória
@@ -68,7 +68,7 @@ Desenvolvida para praticar conceitos fundamentais de back-end com Node.js e Expr
 
 ---
 
-## ⚙️ Como rodar
+##  Como rodar
 
 ```bash
 git clone https://github.com/Momade-Ibraimo/node-user-api
@@ -79,11 +79,11 @@ npm start
 
 A API ficará disponível em `http://localhost:3002`.
 
-> 💡 Após iniciar a API, suba também o frontend: [app-cadastro-usuarios](https://github.com/Momade-Ibraimo/app-cadastro-usuarios)
+>  Após iniciar a API, suba também o frontend: [app-cadastro-usuarios](https://github.com/Momade-Ibraimo/app-cadastro-usuarios)
 
 ---
 
-## 🧠 Conceitos praticados
+##  Conceitos praticados
 
 - APIs REST e CRUD completo
 - Middlewares
@@ -93,8 +93,3 @@ A API ficará disponível em `http://localhost:3002`.
 - Manipulação de arrays e objetos
 - UUID
 
----
-
-## 🎯 Objetivo
-
-Consolidar conhecimentos em Node.js, Express e desenvolvimento de APIs REST com boas práticas de validação e organização de código... 
